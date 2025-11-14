@@ -1,0 +1,18 @@
+networks:
+  nginx-net:
+    external: true
+
+services:
+  nginx:
+    image: nginx:stable
+    container_name: nginx-all
+    ports:
+      - "4430:80"
+      - "4431:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./fullchain.pem:/etc/nginx/fullchain.pem:ro
+      - ./privkey.pem:/etc/nginx/privkey.pem:ro
+    restart: unless-stopped
+    networks:
+      - nginx-net
