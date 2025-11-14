@@ -1,0 +1,11 @@
+# Git and project files
+.git
+.gitignore
+.env
+README.md
+
+# Node dependencies
+node_modules
+
+# TypeScript compiled output (we will generate this inside the container)
+dist

@@ -1,0 +1,154 @@
+.user-content {
+    display: flex;
+    width: 1625px;
+    padding: 80px 115px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.header-section {
+    display: flex;
+    width: 1350px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-section h3 {
+    margin: 0;
+    align-self: stretch;
+    color: var(--New-group-shade6, #37612F);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    /* 200% */
+}
+
+.header-section h1 {
+    margin: 0;
+    color: var(--New-group-shade6, #37612F);
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    /* 187.5% */
+}
+
+.edit-button {
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    background: var(--Experiment-Color, #49674B);
+
+    /* shadow1 */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+
+}
+
+
+.user-details {
+    display: flex;
+    width: 857px;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.label {
+    color: var(--New-group-shade6, #37612F);
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.value {
+    color: #B81010;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.table-container table {
+    width: 1350px;
+    border-collapse: collapse;
+
+    border-radius: 4px;
+    border: 1px solid var(--Experiment-Color-2, #627D5D);
+    background: var(--offwhite, #FAF9F6);
+}
+
+.table-container thead tbody {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+
+    background: rgba(255, 255, 255, 0.00);
+}
+
+.table-container th {
+    color: var(--New-group-shade6, #37612F);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    flex: 1 0 0;
+}
+
+.table-container th,
+.table-container td {
+    padding: 15px;
+    border: 1px solid #2d4415;
+    text-align: left;
+}
+
+.user-devices {
+    height: 40px;
+    align-self: stretch;
+
+    color: var(--New-group-shade6, #37612F);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    /* 200% */
+    margin: 0;
+}

@@ -1,0 +1,15 @@
+networks:
+  nginx-net:
+    external: true
+
+services:
+  scarrow-api:
+    build: .
+    container_name: api-scarrow-container
+    restart: unless-stopped
+    env_file:
+      - .env
+    expose:
+      - "5000"
+    networks:
+      - nginx-net
